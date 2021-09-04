@@ -1,4 +1,4 @@
-# 🚀 Split Monk Application | Hack JNU 2.0 🚀
+# 🚀 Split Monk Application | Hack JNU 2.0
 ![](https://media0.giphy.com/media/flbcUFdLSHwZC03p11/giphy.gif?cid=ecf05e473n1rpg8u098c485j8fopib9bql7m5qbv13er8nw9&rid=giphy.gif&ct=g)
 ## 🤔 OBSERVATION 🤔
 
@@ -25,8 +25,8 @@
 > that 	that allows users to pay their contribution and balance 	the
 > amounts between a group, then the solution becomes  	usable to all
 > user holding bank account .
+## Quick Peek Into The App
+screenshots to be uploaded
 
 ##  Monk Points 🧘
-![](https://media2.giphy.com/media/Ssltx68WIeX1wA0Mg8/giphy.gif?cid=ecf05e47ios37og2jtbp1i7fo1p4z8516sia3wu7ulfm4gsi&rid=giphy.gif&ct=g)
-
 Now, What actually monk points are, these are **virtual coins that is earned when someone makes a payement using split monk**. Number. of coins is rewarded on basis of amount of payment made. These coins can be consumed to purchase inapp coupons and offers.

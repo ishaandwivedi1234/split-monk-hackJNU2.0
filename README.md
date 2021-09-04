@@ -3,7 +3,7 @@
 🤔 OBSERVATION 🤔
 
 > We being a college students, organize may events and parties,
-> either to give birthday surprise to our friends 	or to celebreate
+> either to give birthday surprise to our friends 	or to celebrate
 > Teachers Day or any such event,  	But what we observed that whenever there is any such event 	which requires group funding, It becomes headace to 	split the amount and ask everyone to pay. which many times ends up in unequal contribution.
 
 ✨PROBLEM STATEMENT ✨

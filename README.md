@@ -1,4 +1,4 @@
-# 🚀 Split Monk Application | Hack JNU 2.0
+# 🚀 Split Monk Application | Hack JNU 2.0 🚀
 ![](https://media0.giphy.com/media/flbcUFdLSHwZC03p11/giphy.gif?cid=ecf05e473n1rpg8u098c485j8fopib9bql7m5qbv13er8nw9&rid=giphy.gif&ct=g)
 ## 🤔 OBSERVATION 🤔
 

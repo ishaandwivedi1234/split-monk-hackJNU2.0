@@ -30,3 +30,7 @@ screenshots to be uploaded
 
 ##  Monk Points 🧘
 Now, What actually monk points are, these are **virtual coins that is earned when someone makes a payement using split monk**. Number. of coins is rewarded on basis of amount of payment made. These coins can be consumed to purchase inapp coupons and offers.
+
+##  Tech Stack Used
+
+<img src="https://img.icons8.com/color/96/000000/android-os.png"/><img src="https://img.icons8.com/color/96/000000/firebase.png"/><img src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v1.png"/><img src="https://img.icons8.com/officel/90/000000/xml-file.png"/><img src="https://img.icons8.com/color/96/000000/adobe-xd--v2.png"/>

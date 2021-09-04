@@ -34,3 +34,15 @@ Now, What actually monk points are, these are **virtual coins that is earned whe
 ##  Tech Stack Used
 
 <img src="https://img.icons8.com/color/96/000000/android-os.png"/><img src="https://img.icons8.com/color/96/000000/firebase.png"/><img src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo--v1.png"/><img src="https://img.icons8.com/officel/90/000000/xml-file.png"/><img src="https://img.icons8.com/color/96/000000/adobe-xd--v2.png"/>
+
+## Want To Use It ? 
+<img src="https://media3.giphy.com/media/lnOG1o6Cdc3kKjuray/giphy.gif?cid=ecf05e477jh2y4mrb694smajkvem3b6ptl70lzjp1dvx2fp4&rid=giphy.gif&ct=g"><br>
+Why not, you can <a href="">download </a> it now and install it on you android device.
+
+## Contribution Manual
+
+Split monk is an open source project developed by **Byte Cruchers**,so any one willing to contribute in this application is welcomed and can follow following steps to get his/her commits merged into main repo.
+
+<img src="https://img.icons8.com/doodle/48/000000/one-finger--v1.png" align="center"/> Fork the repo in your github account 
+<img src="https://img.icons8.com/pastel-glyph/64/000000/source-code--v3.png" align="center"/> Perform some changes ( must be contructive or bug removal )
+<img src="https://img.icons8.com/fluency/48/000000/pull-request.png" align="center" /> Pull request us, and if the changes are valid , we will merge it.

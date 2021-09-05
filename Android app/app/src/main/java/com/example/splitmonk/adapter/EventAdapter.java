@@ -44,7 +44,7 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull @NotNull ViewHolder holder, int position) {
         holder.name.setText(data.get(position).getEvent_name());
-        holder.amount.setText("Total: " + data.get(position).getEvent_total_amount() + "/-");
+        holder.amount.setText("Rs. " + data.get(position).getEvent_total_amount());
         holder.members.setText(data.get(position).getEvent_users().size() + " members participated");
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {

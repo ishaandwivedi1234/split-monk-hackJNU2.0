@@ -38,14 +38,13 @@ import io.paperdb.Paper;
 
 public class GroupDashboardActivity extends AppCompatActivity {
 
-    ImageView back_button, btn_group_info;
     FirebaseAuth mAuth;
     FirebaseUser currUser;
     FloatingActionButton add_event;
     RecyclerView event_rec;
     EventAdapter adapter;
     String group_id_txt;
-    TextView groupname;
+    TextView groupname, groupdesc;
     Group curr;
     ArrayList<Event> all_events = new ArrayList<>();
 
@@ -75,30 +74,12 @@ public class GroupDashboardActivity extends AppCompatActivity {
             loadGroupData();
         }
 
-        back_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(GroupDashboardActivity.this, DashboardActivity.class);
-                startActivity(i);
-            }
-        });
-
         add_event.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(GroupDashboardActivity.this, EventCreationActivity.class);
                 i.putExtra("group_id", group_id_txt);
                 startActivity(i);
-            }
-        });
-
-        btn_group_info.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-                ClipData clip = ClipData.newPlainText("group_id", curr.getGroup_id());
-                clipboard.setPrimaryClip(clip);
-                Toast.makeText(GroupDashboardActivity.this, "Group ID has been copied to your clipboard", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -112,6 +93,7 @@ public class GroupDashboardActivity extends AppCompatActivity {
             public void onDataChange(@NonNull @NotNull DataSnapshot snapshot) {
                 curr = snapshot.getValue(Group.class);
                 groupname.setText(curr.getGroup_name());
+                groupdesc.setText(curr.getGroup_desc());
                 loadEventData(curr);
             }
 
@@ -157,11 +139,10 @@ public class GroupDashboardActivity extends AppCompatActivity {
 
     private void InitViews() {
         mAuth = FirebaseAuth.getInstance();
-        back_button = findViewById(R.id.back_button);
         add_event = findViewById(R.id.add_event);
         groupname = findViewById(R.id.group_name);
         event_rec = findViewById(R.id.events_rec);
-        btn_group_info = findViewById(R.id.btn_group_info);
+        groupdesc = findViewById(R.id.group_desc);
     }
 
 }
